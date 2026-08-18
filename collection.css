@@ -1,0 +1,15 @@
+/* Presence Collective real product artwork */
+.real-art-grid{align-items:start}
+.product-board-frame{background:#f6f0e5;padding:10px;border-bottom:1px solid rgba(25,30,23,.1);overflow:hidden}
+.dark-frame{background:#171916}
+.product-board-img{display:block;width:100%;aspect-ratio:4/5;object-fit:cover;object-position:center;transition:transform .35s ease}
+.board-card:hover .product-board-img{transform:scale(1.012)}
+.real-art-grid .board-card{background:#fbfaf6}
+.real-art-grid .board-card-copy{min-height:310px;display:flex;flex-direction:column}
+.real-art-grid .board-card-copy h3{font-size:30px}
+.real-art-grid .board-card-copy p{margin:0 0 12px}
+.real-art-grid .board-card-copy ul{margin:0 0 18px}
+.message-line{margin-top:auto;padding-top:14px;border-top:1px solid #d8d0c1;color:#34412e;font-family:'Oswald',sans-serif;letter-spacing:.05em;font-size:15px}
+.message-line strong{color:#3f7d4c}
+.collection-standard{margin-top:38px}
+@media(max-width:1000px){.product-board-img{aspect-ratio:auto;max-height:none}.real-art-grid .board-card-copy{min-height:auto}}
